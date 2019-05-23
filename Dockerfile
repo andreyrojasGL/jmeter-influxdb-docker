@@ -1,5 +1,5 @@
 FROM openjdk:8u201-jdk-alpine3.9
-LABEL maintainer="emmanuel.gaillardon@orange.fr"
+LABEL maintainer="andrey.rojasGL"
 STOPSIGNAL SIGKILL
 ENV JMETER_VERSION 5.1.1
 ENV JMETER_HOME /opt/apache-jmeter-${JMETER_VERSION}
